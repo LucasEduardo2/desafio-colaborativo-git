@@ -23,4 +23,13 @@ int main()
   printf("Qual será a operação [+|-|x|/]: ");
 
   scanf(" %c", &operador);
+
+  switch(operador){
+    case'+':
+    printf("%.0f + %.0f=%.2f", num1, num2,(num1+num2));
+    break;
+    case'-':
+    printf("%.0f - %.0f+ %.2f", num1, num2,(num1-num2));
+    break;
+  }
 }
